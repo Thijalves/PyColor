@@ -44,7 +44,7 @@ class App:
         self.imageCanvas = tk.Canvas(self.slider_frame, width=500, height=110)
         self.imageCanvas.grid(row=3, column=0, columnspan=3)
         # load the image
-        img = Image.open('hue.png')
+        img = Image.open('Images/hue.png')
         img = img.resize((495, 108), Image.ANTIALIAS)
         img_tk = ImageTk.PhotoImage(img)
         # add the image to the canvas
