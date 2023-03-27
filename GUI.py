@@ -9,7 +9,7 @@ class App:
         self.window = window
         self.window.title(title)
         self.window.geometry(str(width)+"x"+str(height))
-        # self.window.resizable(False, False)
+        self.window.resizable(False, False)
 
         #Widgets
         # set up the canvas for the image display
